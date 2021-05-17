@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.AppHeader {
+  background-color: #282c34;
+  max-height: 60px;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.Calling {
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #282c34;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 4px 4px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.CallingMessage {
+  flex: 1;
+  padding: 8px;
+  font-size: x-large;
+}
+
+.CallingActions {
+  display: flex;
+  button {
+    flex: 1;
+    margin: 8px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+.Accept {
+  background-color: green;
+}
+
+.Reject {
+  background-color: red;
+}

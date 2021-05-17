@@ -1,0 +1,13 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+
+  & * {
+    padding: 8px;
+    margin: 8px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

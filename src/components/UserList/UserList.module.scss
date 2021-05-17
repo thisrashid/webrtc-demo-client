@@ -1,0 +1,27 @@
+.UserList {
+  grid-area: userlistbox;
+  border: 5px solid #282c34;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 1px;
+  list-style: none;
+  line-height: 1.1;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 2px solid #9fa6b6;
+    text-align: center;
+    font-size: large;
+
+    &:hover {
+      background-color: #ddd;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
